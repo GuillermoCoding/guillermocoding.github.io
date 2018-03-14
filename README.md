@@ -1,2 +1,2 @@
 # guillermocoding.github.io
-repo for personal website
+GitHub pages repo for personal website

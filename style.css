@@ -111,7 +111,7 @@ body {
 }
 #profile-picture {
 	width: 53%;
-	margin: 0 20% 2vw 27%;
+	margin: 0 20% 2vw 30%;
 	border-radius: 50%;
 }
 #about-me-info{
@@ -174,6 +174,12 @@ body {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 }
+#about-me-email {
+	margin-left: 1em;
+	font-size: .9em;
+	margin-top: -.15em;
+
+}
 #signature-container {
 	width: 80%;
 	margin: 4vw 10% 0 10%;
@@ -196,6 +202,17 @@ body {
   }  
   #about-me-desc {
 	  font-size: 1.4em;
+  }
+  #about-me-email {
+	  margin-left: 1em;
+	  font-size: .9em;
+      margin-top: -.15em;
+
+  }
+  #profile-picture {
+      width: 53%;
+      margin: 0 20% 2vw 23%;
+	  border-radius: 50%;
   }
 }
 /*PROJECTS SECTION*/

@@ -368,6 +368,7 @@ body {
 /*EXPERIENCE*/
 #website-display {
 	width:100%;
+    margin-top: 2em;
 }
 .hackathons-container .tech-wrapper {
 		color: white;

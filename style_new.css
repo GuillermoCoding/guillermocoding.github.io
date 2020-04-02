@@ -1,3 +1,4 @@
+/* DESKPTOP */
 @media screen and (min-width: 992px) {
   .navbar-custom {
     display: flex;
@@ -22,6 +23,19 @@
     margin-top: 1em;
   }
 }
+/* MOBILE */
+@media screen and (max-width: 992px) {
+  #about-me-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+  .container-custom {
+    margin-top: 2em;
+  }
+}
+
 
 /* ALL */
 .container-custom {

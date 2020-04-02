@@ -1,0 +1,40 @@
+@media screen and (min-width: 992px) {
+  .navbar-custom {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-link-custom-active{
+    border-bottom: 3px solid #17E7CF;
+  }
+}
+
+/* ALL */
+.container-custom {
+  margin-top: 4em;
+}
+
+/* HOME PAGE */
+#about-me-image {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 12em;
+  border: 2px solid #17e7cf;
+  padding: .2em;
+}
+
+#about-me-heading {
+  font-weight: 700;
+}
+#about-me-parragraph-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-me-word {
+  font-weight: 600;
+}
+
+.about-me-social-logo {
+  height: 2em;
+  margin-right: .3em;
+}

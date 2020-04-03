@@ -2,7 +2,7 @@
 body {
   background-color: #0000000d;
 }
-#footer {
+#footer-container {
   display: flex;
   background: #343a40;
   color: white;
@@ -22,7 +22,7 @@ body {
 }
 
 #about-me-heading {
-  font-weight: 700;
+  font-weight: 600;
 }
 .about-me-word {
   font-weight: 600;
@@ -42,6 +42,9 @@ body {
   align-items: center;
   margin-top: 2em;
   margin-bottom: 2em;
+}
+#contact-form-header {
+  font-weight: 600;
 }
 #contact-form-button {
   background: white;
@@ -104,6 +107,9 @@ body {
     align-items: center;
     margin-bottom: 2em;
   }
+  #about-me-parragraph {
+   margin: 1em 0; 
+  }
   .container-custom {
     margin-top: 1.5em;
   }
@@ -118,6 +124,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 1.3em;
   }
   .about-me-social-logo {
     height: 2em; 

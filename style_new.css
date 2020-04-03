@@ -55,6 +55,39 @@ body {
   width: 12em;
   color: #000000d6;
 }
+
+/* EXPERIENCE */
+.company-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.company-logo {
+  width: 4em;
+  background: white;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: .3em;
+}
+.experience-details-container {
+
+}
+.experience-details-item {
+  margin: 0;
+  color: #464646;
+}
+.experience-items-container {
+  display: flex;
+  flex-direction: row;
+  justify
+}
+.experience-item {
+  border: 1px solid #343a40;
+  border-radius: 5px;
+  margin-right: 1em;
+  padding: .1em .5em;
+  font-size: 90%;
+}
 /* DESKTOP */
 @media screen and (min-width: 992px) {
   .navbar-custom {

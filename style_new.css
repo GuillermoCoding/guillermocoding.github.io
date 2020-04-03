@@ -1,3 +1,21 @@
+/* ALL*/
+body {
+  background-color: #0000000d;
+}
+#footer {
+  display: flex;
+  background: #343a40;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  height: 2em;
+  justify-content: center;
+}
+#footer-content {
+  font-size: 84%;
+  margin-bottom: 0;
+}
+
 /* HOME */
 .container-custom {
   margin-top: 4em;
@@ -23,6 +41,16 @@
   flex-direction: column;
   align-items: center;
   margin-top: 2em;
+  margin-bottom: 2em;
+}
+#contact-form-button {
+  background: white;
+  border: 1px solid #0000003b;
+  border-radius: 5px;
+  width: 73%;
+  height: 2em;
+  width: 12em;
+  color: #000000d6;
 }
 /* DESKTOP */
 @media screen and (min-width: 992px) {
@@ -30,15 +58,23 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 0;
-    border-bottom: 1px solid gray;
-    height: 4em;
+    border-bottom: 1.5px solid gray;
+    height: 4.1em;
+    background: #353535;
   }
   .navbar-nav-default {
     height: 100%;
+    width: 20em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
   .nav-link-custom-active {
     border-bottom: 3px solid #17E7CF;
     height: 100%;
+  }
+  .nav-link-custom {
+    color: white;
   }
   #about-me-parragraph-container {
     display: flex;

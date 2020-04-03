@@ -58,14 +58,13 @@ body {
 
 /* EXPERIENCE */
 .company-logo-container {
-  /*
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  */
 }
 .company-logo {
   width: 4em;
+  height: 4em;
   background: white;
   object-fit: cover;
   border-radius: 50%;

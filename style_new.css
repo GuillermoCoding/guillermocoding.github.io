@@ -88,6 +88,9 @@ body {
   padding: .1em .5em;
   font-size: 90%;
 }
+.experience-header {
+  margin-bottom: .1em;
+}
 /* DESKTOP */
 @media screen and (min-width: 992px) {
   .navbar-custom {
@@ -130,6 +133,10 @@ body {
   #contact-form {
     width: 55%;
   }
+  .experience-details-item {
+    margin-bottom: .1em;
+  }
+
 }
 
 /* MOBILE */
@@ -170,4 +177,15 @@ body {
   #contact-form {
     width: 100%;
   }
+  /* EXPERIENCE */
+  .company-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: .8em;
+  }
+  .experience-details-container {
+    margin-bottom: .8em;
+  }
+ 
 }

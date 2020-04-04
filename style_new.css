@@ -1,4 +1,7 @@
 /* ALL*/
+* {
+  font-family: 'Roboto Slab', serif;
+}
 body {
   background-color: #0000000d;
 }
@@ -85,7 +88,7 @@ body {
 .experience-item {
   border: 1px solid #343a40;
   border-radius: 5px;
-  margin-right: 1em;
+  margin-right: .7em;
   padding: .1em .5em;
   font-size: 85%;
 }
@@ -193,12 +196,4 @@ body {
   .experience-details-container {
     margin-bottom: .8em;
   }
-  .experience-item {
-    border: 1px solid #343a40;
-    border-radius: 5px;
-    margin-right: .7em;
-    padding: .1em .4em;
-    font-size: 85%;
-  }
- 
 }

@@ -103,7 +103,11 @@ body {
 /* PROJECTS */
 .carousel-custom {
   width: 55em;
-  border: 1px solid #343a40;
+  /*border: 1px solid #343a404f;*/
+  border-radius: 5px;
+}
+.carousel-inner-custom {
+  border-radius: inherit;
 }
 .carousel-container {
   display: flex;

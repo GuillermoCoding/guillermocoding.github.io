@@ -6,6 +6,7 @@ body {
   background-color: #0000000d;
 }
 #footer-container {
+  margin-top: 4em;
   display: flex;
   background: #343a40;
   color: white;
@@ -102,6 +103,7 @@ body {
 /* PROJECTS */
 .carousel-custom {
   width: 55em;
+  border: 1px solid #343a40;
 }
 .carousel-container {
   display: flex;
